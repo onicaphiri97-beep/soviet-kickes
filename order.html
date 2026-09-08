@@ -26,30 +26,36 @@
 
         <p>Choose your favourite Soviet Kicks sneakers and place your order below.</p>
 
-        <form action="https://formspree.io/f/xoqgkyrj" method="POST">
+      <form action="https://formspree.io/f/xjyvazrd" method="POST">
+    
     <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">Email Address:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+    <label for="email">Email Address:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
 
-            <label for="product">Choose a Product:</label><br>
-            <select id="product" name="product">
-                <option value="classic">Soviet Kicks Classic - R250</option>
-                <option value="sport">Soviet Kicks Sport - R250</option>
-                <option value="casual">Soviet Kicks Casual - R300</option>
-            </select><br><br>
+    <label for="product">Choose a Product:</label><br>
+    <select id="product" name="product" required>
+        <option value="Soviet Kicks Classic">Soviet Kicks Classic - R250</option>
+        <option value="Soviet Kicks Sport">Soviet Kicks Sport - R250</option>
+        <option value="Soviet Kicks Casual">Soviet Kicks Casual - R250</option>
+    </select><br><br>
 
-            <label for="size">Choose Your Size:</label><br>
-            <select id="size" name="size">
-                <option value="3">Size 3</option>
-                <option value="4">Size 4</option>
-                <option value="5">Size 5</option>
-                <option value="6">Size 6</option>
-                <option value="7">Size 7</option>
-                <option value="8">Size 8</option>
-                <option value="9">Size 9</option>
-                <option value="10">Size 10</option>
-            </select><br><br>
+    <label for="size">Choose your Size:</label><br>
+    <select id="size" name="size" required>
+        <option value="Size 3">Size 3</option>
+        <option value="Size 4">Size 4</option>
+        <option value="Size 5">Size 5</option>
+        <option value="Size 6">Size 6</option>
+        <option value="Size 7">Size 7</option>
+        <option value="Size 8">Size 8</option>
+        <option value="Size 9">Size 9</option>
+        <option value="Size 10">Size 10</option>
+    </select><br><br>
+
+    <button type="submit">Place Order</button>
+
+</form>
 
             <label for="quantity">Quantity:</label><br>
             <input type="number" id="quantity" name="quantity" min="1" value="1"><br><br>
