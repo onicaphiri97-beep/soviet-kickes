@@ -133,3 +133,10 @@ Part 2 and Part 3 will follow in future submissions and will include additional 
 
 ### Mobile View
 ![Mobile Screenshot](images/mobile.png)
+## References
+
+- Independent Institute of Education. 2026. *Web Development (Introduction) WEDE5020: Part 2 Project Brief*. Johannesburg: IIE.
+- Mozilla Developer Network (MDN). 2026. *CSS: Cascading Style Sheets*. [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed 16 September 2026].
+- W3Schools. 2026. *CSS Tutorial*. [Online]. Available at: https://www.w3schools.com/css/ [Accessed 16 September 2026].
+- W3Schools. 2026. *HTML Tutorial*. [Online]. Available at: https://www.w3schools.com/html/ [Accessed 16 September 2026].
+- Google. 2026. *Google Maps*. [Online]. Available at: https://www.google.com/maps [Accessed 16 September 2026].
