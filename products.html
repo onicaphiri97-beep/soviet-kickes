@@ -3,55 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - Affordable Soviet Kicks</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Products | Soviet Kicks</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
     <header>
-        <h1>Affordable Soviet Kicks</h1>
-        <p>Affordable and stylish Soviet sneakers for everyone.</p>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="products.html">Products</a>
-            <a href="contact.html">Contact</a>
-            <a href="order.html">Order/Shop</a>
-        </nav>
+        <div class="container header-box">
+            <h1 class="logo">Soviet Kicks</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="order.html">Order</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <h2>Our Products</h2>
-        <img src="soviet-kicks.jpg.jpeg" alt="Soviet Kicks sneakers" width="300">
-        
-        <p>Explore our collection of affordable and stylish sneakers.</p>
-
-        <section class="product-card">
-            <h3>Soviet Kicks Classic</h3>
-            <img src="SOV 9.jpeg" alt="Soviet Kicks Classic" width="300">
-            <p>Stylish and comfortable sneakers suitable for everyday wear.</p>
-            <p>Price: R250</p>
-        </section>
-
-        <section class="product-card">
-            <h3>Soviet Kicks Sport</h3>
-            <img src="SOVIET 6.jpeg" alt="Soviet Kicks Sport" width="300">
-            <p>Comfortable sneakers designed for an active lifestyle.</p>
-            <p>Price: R250</p>
-        </section>
-
-        <section class="product-card">
-            <h3>Soviet Kicks Casual</h3><img src="SOVIE SH 4.jpeg" alt="Soviet Kicks Sport" width="300">
-
-            <p>Affordable casual sneakers that are perfect for everyday outfits.</p>
-            <p>Price: R300</p>
-        </section>
-    </main>
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Products</h2>
+            <div class="flex-row">
+                <div class="product-box">
+                    <img src="images/SOV 9.jpeg" alt="Soviet Kicks Classic">
+                    <h3>Soviet Kicks Classic</h3>
+                    <p>Price: R250</p>
+                </div>
+                <div class="product-box">
+                    <img src="images/soviet-kicks.jpg.jpeg" alt="Soviet Kicks Air">
+                    <h3>Soviet Kicks Air</h3>
+                    <p>Price: R300</p>
+                </div>
+                <div class="product-box">
+                    <img src="images/SOVIE 5.jpeg" alt="Soviet Kicks Sport">
+                    <h3>Soviet Kicks Sport</h3>
+                    <p>Price: R250</p>
+                </div>
+                <div class="product-box">
+                    <img src="images/SOVIE SH 4.jpeg" alt="Soviet Kicks Retro">
+                    <h3>Soviet Kicks Retro</h3>
+                    <p>Price: R250</p>
+                </div>
+                <div class="product-box">
+                    <img src="images/SOVIET 6.jpeg" alt="Soviet Kicks Urban">
+                    <h3>Soviet Kicks Urban</h3>
+                    <p>Price: R250</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2026 Affordable Soviet Kicks. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 Soviet Kicks. All rights reserved.</p>
+        </div>
     </footer>
 
 </body>

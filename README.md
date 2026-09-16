@@ -94,3 +94,42 @@ Part 2 and Part 3 will follow in future submissions and will include additional 
 - Added CSS styling and colour scheme.
 - Added styled product cards.
 - Created README.md.
+
+## Changelog
+
+### Part 1
+- Created initial website pages.
+- Added navigation between website pages.
+- Added sneaker product information.
+- Added different sneaker images.
+- Added product prices.
+- Added an order form.
+- Added contact information.
+- Added business location images.
+- Added CSS styling and colour scheme.
+- Added styled product cards.
+- Created README.md.
+
+### Part 2 (Feedback Corrections from Part 1)
+- **Added Planning Documentation:** Created a PART1 PLANNING.md file containing the complete project proposal, research evidence, sitemap, technical requirements, budget, and timeline.
+- **Organised Project Files:** Moved all image files into a new images folder to establish a consistent file structure.
+- **Updated HTML:** Corrected all image paths in the HTML files to link to the new images folder.
+
+### Part 2 (CSS Styling Implementation)
+- **Created External Stylesheet:** Created style.css and linked it to all HTML pages.
+- **CSS Reset:** Added a basic reset (* { margin: 0; padding: 0; box-sizing: border-box; }) to ensure consistent styling across all browsers.
+- **Typography:** Used CSS properties like font family, font-size, and line height to create a harmonious typography scale.
+- **Layout Structure:** Used Flexbox (display: flex) for the Header navigation, the main content sections, and the footer.
+- **Visual Styles:** Applied background-color, color, border, and box-shadow to style elements visually.
+- **Interactive Elements:** Used the :hover and :active pseudo-classes on buttons and links to improve the user experience.
+- **Responsive Design:** Added media queries for Tablet (max-width: 1024px) and Mobile (max-width: 768px). On mobile, the layout switches to a single-column design, and font sizes are adjusted for smaller screens.
+## Responsive Screenshots
+
+### Desktop View
+![Desktop Screenshot](images/desktop.png)
+
+### Tablet View
+![Tablet Screenshot](images/tablet.png)
+
+### Mobile View
+![Mobile Screenshot](images/mobile.png)

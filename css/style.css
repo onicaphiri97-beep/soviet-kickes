@@ -1,0 +1,110 @@
+.product-card {
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+}
+
+button {
+    background-color: #222;
+    color: rgb(181, 159, 218);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+body {
+    background-color: #eb93931a;
+    color: #222;
+}
+
+header {
+    background-color: #222;
+    color: rgb(240, 130, 130);
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+h2, h3 {
+    color: #c62828;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+/* Make all images responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.product-box img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+/* Product box styling */
+.product-box {
+    text-align: center;
+    width: 30%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.product-box img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Flex row layout */
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+/* Map images side by side */
+.map-box {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map-box img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 4px;
+}
+/* About page logo */
+.about-logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-logo img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
