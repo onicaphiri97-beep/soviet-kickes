@@ -108,3 +108,50 @@ img {
     display: block;
     margin: 0 auto;
 }
+/* Map images side by side */
+.map-box {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.map-box img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 4px;
+}
+
+/* About page logo */
+.about-logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-logo img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Responsive rules for mobile */
+@media screen and (max-width: 768px) {
+    .product-box {
+        width: 100%;
+    }
+    
+    .product-box img {
+        max-width: 100%;
+    }
+    
+    .map-box {
+        width: 100%;
+    }
+    
+    .map-box img {
+        max-width: 100%;
+    }
+}
