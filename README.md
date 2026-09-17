@@ -126,8 +126,7 @@ Part 2 and Part 3 will follow in future submissions and will include additional 
 ## Responsive Screenshots
 
 ### Desktop View
-![Desktop Screenshot](images/desktop.png)
-
+![Desktop Screenshot](images/Desktop.png)
 ### Tablet View
 ![Tablet Screenshot](images/tablet.png)
 
