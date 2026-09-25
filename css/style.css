@@ -154,4 +154,16 @@ img {
     .map-box img {
         max-width: 100%;
     }
+}/* pseudo-classes for interactive 
+elements*/
+
+nav a:hover {
+    color: #c0392b;
 }
+button:hover {
+    background-color: #a93226;
+}
+input:focus
+    textarea:focus {
+        outline: 2px solid #c0392b;
+    }
